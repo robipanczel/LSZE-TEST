@@ -9,7 +9,7 @@ f(n)=n^4 + 2n g(n)=(2/3)^n
 2\. állítás: g(n)=Ω(f(n))  
 Melyik igaz?
 
-- csak az 1.
+- csak az 1. (tipp)
 - ~~csak a 2.~~
 - mindkettő
 - egyik se
@@ -34,7 +34,7 @@ Tegyük fel, hogy a nemnegatív értékű f(n) és g(n) függvényekre f(n)/g(n)
 Melyik állítás igaz?
 
 - csak az 1.
-- ~~csak a 2.
+- csak a 2.
 - mindkettő
 - ~~egyik se~~
 
@@ -76,7 +76,7 @@ Legyen M = (Q, Σ, Γ, δ, q0 , q<sub>i</sub> , q<sub>n</sub>) egy tetszőleges 
 Melyik lehet egy M = ({q0,q1,q2}, {0,1}, {0,1,#,\_}, δ, q0 , qi , qn) egyszalagos Turing-gép kezdőkonfigurációja?  
 q0\_ vagy q001#01_? (_jelöli a blank karaktert)  
 
-- csak q0_
+- csak q0_ (tipp)
 - csak q001#01_
 - ~~mindkettő~~
 - egyik se
@@ -115,7 +115,7 @@ Legyen  M = (Q, Σ, Γ, δ, q0 , qi , qn) egy tetszőleges kétszalagos Turing-g
 
 Legyen  M = (Q, Σ, Γ, δ, q0 , qi , qn) egy tetszőleges kétszalagos Turing-gép. Mi az abb szóhoz tartozó kezdőkonfiguráció?
 
-- (q0,ε, abb,ε,_)
+- (q0,ε, abb,ε,_) (tipp)
 - ~~(q0,abb,_)~~
 - (q0,ε,abb,ε,ε)
 - (q0,abb,ε)
@@ -129,13 +129,12 @@ Melyik következtetés helyes?
 
 - ~~csak az 1.~~
 - csak a 2.
-- mindkettő
+- mindkettő (tipp)
 - egyik se
 
 ---
 
 Egy M determinisztikus Turing gép pontosan az {abna|n>0} nyelv szavaira jut qn-be.  
-
 1\. L(M) az {ab<sup>n</sup>a|n>0} nyelv komplementere.  
 2\. M eldönti az {ab<sup>n</sup>a|n>0} nyelv komplementerét.  
 Melyik következtetés helyes?
@@ -147,13 +146,15 @@ Melyik következtetés helyes?
 
 ---
 
-Egy determinisztikus Turing gép pontosan az {a<sup>n</sup>b<sup>n</sup>|n>0} nyelv szavaira jut q<sub>i</sub>-be  
-Melyik állítás igaz?
+Egy determinisztikus Turing gép pontosan az {a<sup>n</sup>b<sup>n</sup>|n>0} nyelv szavaira jut q<sub>i</sub>-be.  
+1\. állítás: M eldönti az {a<sup>n</sup>b<sup>n</sup>|n>0} nyelvet.  
+2\. állítás: L(M)={a<sup>n</sup>b<sup>n</sup>|n>0}.  
+Melyik állítás igaz?  
 
 - csak az 1.
 - csak a 2.
 - ~~mindkettő~~
-- egyik se
+- egyik se (tipp)
 
 ---
 
@@ -207,7 +208,7 @@ Melyik állítás igaz?
 Egy M nemdeterminisztikus Turing gépre és egy L nyelvre L(M)=L teljesül. Mire következtetünk ebből?
 
 - L ∈ R
-- L ∈ RE
+- L ∈ RE (tipp)
 - ~~mindkettőre következtethetünk~~
 - egyikre sem következtethetünk
 
@@ -289,7 +290,7 @@ Melyik egy helyes párosítás?
 
 - ~~1-8 2-6 3-7 4-5~~
 - 1-5 2-7 3-8 4-6
-- 1-8 2-7 3-5 4-6
+- 1-8 2-7 3-5 4-6 (tipp)
 - 1-5 2-6 3-7 4-8
 
 ---
@@ -424,7 +425,7 @@ Legyenek L és L' nyelvek. Az L eldönthetőségének bizonyításához elég:
 Legyenek L és L' nyelvek. L Turing-felismerhetőségének bizonyításához elég:
 
 - ~~L' eleme R-nek és L'≤L~~
-- L' eleme R-nek és L≤L'
+- L' eleme R-nek és L≤L' (tipp)
 - L' eleme RE-nek és L≤L'
 - L' eleme RE-nek és L'≤L
 
@@ -562,7 +563,7 @@ Melyik állítás igaz?
 Melyik állításról tudjuk, hogy igaz?
 
 - csak az 1.
-- csak a 2.
+- csak a 2. (tipp)
 - mindkettő
 - ~~egyik se~~
 
@@ -583,7 +584,7 @@ Melyik állításról tudjuk, hogy igaz?
 2\. állítás SPACE(n<sup>2</sup>)⊆NTIME(n<sup>2</sup>)  
 Melyikről lehet tudni, hogy igaz?
 
-- csak az 1.-ről
+- csak az 1.-ről (tipp)
 - csak a 2.-ról
 - mindkettőről
 - egyikről se

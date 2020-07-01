@@ -47,7 +47,7 @@ Melyik igaz?
 
 - csak az 1.
 - ~~csak a 2.~~
-- mindkettő
+- mindkettő (tipp)
 - egyik se
 
 ---
@@ -57,9 +57,9 @@ Tegyük fel, hogy a nemnegatív értékű f(n) és g(n) függvényekre f(n)/g(n)
 2\. állítás: g(n)=O(f(n))  
 Melyik állítás igaz?
 
-- csak az 1.
+- ~~csak az 1.~~
 - csak a 2.
-- mindkettő
+- mindkettő (tipp)
 - ~~egyik se~~
 
 ---
@@ -71,7 +71,7 @@ Melyik állítás igaz?
 (N a természetes számok, R0+ a nemnagatív valós számok halmaza.)  
 
 - csak az 1.
-- csak a 2.
+- csak a 2. (tipp)
 - mindkettő
 - ~~egyik se~~
 
@@ -91,7 +91,7 @@ Legyen M = (Q, Σ, Γ, δ, q0 , q<sub>i</sub> , q<sub>n</sub>) egy tetszőleges 
 (q,r∈Q, u,v ∈Γ*, v≠ε, a,b,c∈Γ)
 
 - ~~uvrbv~~
-- urcbv
+- urcbv (tipp)
 - ucrbLv
 - ucbrv
 
@@ -112,7 +112,7 @@ Legyen M = (Q, Σ, Γ, δ, q0 , q<sub>i</sub> , q<sub>n</sub>) egy NEMDETERMINIS
 2\. állítás: ha létezik többlépéses konfigurációátmenet az u-hoz tartozó kezdőkonfigurációból egy elutasító konfigurációba, akkor u nem eleme L(M)-nek.  
 Melyik állítás igaz?  
 
-- csak az 1.
+- **csak az 1.**
 - csak a 2.
 - mindkettő
 - egyik se
@@ -135,7 +135,7 @@ q<sub>1</sub>aab vagy aabq<sub>1</sub>?
 - csak az 1.
 - csak a 2.
 - ~~mindkettő~~
-- egyik se
+- egyik se (tipp)
 
 ---
 
@@ -145,14 +145,14 @@ Legyen  M = (Q, Σ, Γ, δ, q0 , qi , qn) egy tetszőleges kétszalagos Turing-g
 - (r,u,ebv,xd,y)
 - ~~(r,uec,v,x,dy)~~
 - (r,u,ecv,xd,y)
-- (r,u,ecv,x,dy)
+- (r,u,ecv,x,dy) (tipp)
 
 ---
 
 Legyen  M = (Q, Σ, Γ, δ, q0 , qi , qn) egy tetszőleges kétszalagos Turing-gép. Ha δ(q,a,b)=(r,c,d,R,L), akkor mi lesz a (q,u,av,xe,by) konfiguráció rákövetkezője?  
 (u,v,x,y∈ ​Γ*, v,y≠ε, a,b,c,d,e∈Γ)  
 
-- (r,uc,v,x,edy)
+- (r,uc,v,x,edy) (tipp)
 - ~~(r,uc,v,xe,dy)~~
 - (r,ua,v,x,eby)
 - (r,uc,v,xed,y)
@@ -187,7 +187,7 @@ Melyik állítás igaz?
 - ~~csak az 1.~~
 - csak a 2.
 - mindkettő
-- egyik se
+- egyik se (tipp)
 
 ---
 
@@ -279,7 +279,7 @@ Melyik az az állítás, amelyikről NEM tudjuk kijelenteni, hogy igaz?
 Melyik állítás igaz?
 
 - csak az 1.
-- csak a 2.
+- csak a 2. (tipp)
 - mindkettő
 - ~~egyik se~~
 
@@ -301,7 +301,7 @@ Legyen M egy nemdeterminisztikus Turing gép.
 2\. Ha minden n-re minden L(M)-beli n hosszú u input szóra az u-hoz tartozó nemdeterminisztikus számı́tási fa véges és minden levele a gyökértől legfeljebb 2n2 távolságra van, akkor M f(n)=2n2 időkorlátos.  
 Melyik állítás igaz?  
 
-- _csak az 1._
+- **csak az 1.**
 - ~~csak a 2.~~
 - mindkettő
 - egyik se
@@ -410,7 +410,7 @@ Melyik állítás igaz?
 
 - csak az 1.
 - csak a 2.
-- mindkettő
+- mindkettő (tipp)
 - ~~egyik se~~
 
 ---
@@ -472,8 +472,8 @@ A fentiek közül melyik állításról jelenthető ki, hogy igaz?
 
 - csak az 1.
 - ~~csak a 2.~~
-- mindkettő
-- egyik se
+- ~~mindkettő~~
+- egyik se (tipp)
 
 ---
 
@@ -511,17 +511,17 @@ Az alábbiak közül melyik elsőrendű formula egy olyan elsőrendű logikában
 2\. p(x,y)∨p(f(y,y),x)  
 
 - csak az 1.
-- csak a 2.
+- **csak a 2.**
 - ~~mindkettő~~
 - egyik se
 
 ---
 
 1\. Rice tétele alapján eldönthetetlen, hogy egy Turing gép a {01,11,110} nyelvet ismeri-e fel.  
-2\. Rice tétele alapján eldönthetetlen, hogy egy Turing gép rekutrívan felsorolható nyelvet ismeri-e fel.  
+2\. Rice tétele alapján eldönthetetlen, hogy egy Turing gép rekurzívan felsorolható nyelvet ismeri-e fel.  
 Melyik állítás igaz?  
 
-- csak az 1.
+- csak az 1. (tipp)
 - ~~csak a 2.~~
 - mindkettő
 - egyik se
@@ -555,7 +555,7 @@ Melyik állítás igaz?
 Melyik igaz?
 
 - ~~csak az 1.~~
-- csak a 2.
+- csak a 2. (tipp)
 - mindkettő
 - egyik se
 
@@ -731,8 +731,8 @@ Melyik állítás az, amelyikről tudjuk, hogy igaz?
 2\. A coNL tárbonyolultsági osztály az NL tárbonyolultsági osztály komplementere.  
 Melyik állítás igaz?  
 
-- csak az 1.
-- csak a 2.
+- csak az 1. (tipp)
+- ~~csak a 2.~~
 - mindkettő
 - ~~egyik se~~
 
@@ -742,7 +742,7 @@ Melyik állítás igaz?
 2\. A coNL időbonyolultság osztály az NP időbonyolultság osztály komplementere.  
 Melyik állítás igaz?  
 
-- csak az 1.
+- **csak az 1.**
 - csak a 2.
 - ~~mindkettő~~
 - egyik se
@@ -784,10 +784,10 @@ Az alábbi formulák közül melyik 3KNF?
 
 ---
 
-(2)
-1. Nincs olyan nemdeterminisztikus offline Turing gép által O(n<sup>3</sup>)
+(2)  
+1\. Nincs olyan nemdeterminisztikus offline Turing gép által O(n<sup>3</sup>)
 tárral eldönthető nyelv, ami ne lenne eldönthető determinisztikus offline Turing gép által polinom tárral.  
-2. Nincs olyan NP-beli nyelv, ami ne lenne eldönthető determinisztikus offline Turing gép által polinom
+2\. Nincs olyan NP-beli nyelv, ami ne lenne eldönthető determinisztikus offline Turing gép által polinom
 tárral.  
 Melyik állítás igaz?  
 
@@ -836,9 +836,9 @@ Melyik állításról tudjuk, hogy igaz?
 Melyikről lehet tudni, hogy igaz?
 
 - csak az 1.-ről (tipp)
-- csak a 2.-ról
+- ~~csak a 2.-ról~~
 - mindkettőről
-- egyikről se
+- ~~egyikről se~~
 
 ---
 
@@ -854,7 +854,7 @@ Melyik állítás igaz?
 ---
 
 1\. állítás: { L | L⊆{0,1}* } számossága megszámlálhatóan végtelen.  
-2\. állítás: A {0,1} inputábécéjű nemdeterminisztikus Turing gépek számossága megszámlálhatóan vételen  
+2\. állítás: A {0,1} inputábécéjű nemdeterminisztikus Turing gépek számossága megszámlálhatóan végtelen  
 Melyik állítás igaz?  
 
 - csak az 1.

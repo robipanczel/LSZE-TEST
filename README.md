@@ -265,7 +265,7 @@ Melyik következtetés helyes?
 
 ---
 
-Melyik azaz állítás, amelyikről NEM tudjuk kijelenteni, hogy igaz?  
+Melyik az az állítás, amelyikről NEM tudjuk kijelenteni, hogy igaz?  
 
 - Minden determinisztikus Turing-géphez van vele ekvivalens nemdeterminisztikus Turing-gép.  
 - Minden nemdeterminisztikus Turing-géphez van vele ekvivalens determinisztikus Turing gép.  
@@ -389,7 +389,18 @@ Melyik állítás igaz?
 - ~~csak az 1.~~
 - csak a 2.
 - mindkettő
-- egyik se
+- egyik se (tipp)
+
+---
+
+1\. van olyan eldönthető nyelv, amire L<sub>u</sub> visszavezethető.  
+2\. L<sub>u</sub>  komplementere RE-ben van.  
+Melyik állítás igaz?
+
+- csak az 1.
+- csak a 2.
+- mindkettő
+- **egyik se**
 
 ---
 
@@ -404,6 +415,7 @@ Melyik állítás igaz?
 
 ---
 
+(2)
 1\. L<sub>h</sub> 2. L<sub>PMP</sub> 3. L<sub>átló</sub> 4. TSP  
 5\. RE-ben van, de nem R beli,  
 6\. komplementere R-beli.  
@@ -432,6 +444,7 @@ Melyik egy helyes párosítás?
 
 ---
 
+(2)
 Legyen D={(u,v),(w,x)} (u,v,w,x,y,z∈Σ+) a Post Megfelelkezési Probléma egy bemenete. (Az első dominón u a felső szó, v az alsó, a másodikon w a felső, x az alsó.) Ekkor  
 1\. D bármely megoldása legfeljebb 2 dominóból áll.  
 2\. Ha |u|>|v| és |w|>|x|, akkor D-nek nincs megoldása.  
@@ -464,12 +477,32 @@ A fentiek közül melyik állításról jelenthető ki, hogy igaz?
 
 ---
 
+1\. A nulladrendű logika kielégíthetetlen formuláinak nyelve P-beli.  
+2\. Az elsőrendű logika logikailag igaz formuláinak nyelve eldönthetetlen.  
+A fentiak közül melyik állításról jelenthető ki, hogy igaz?  
+
+- csak az 1.
+- csak a 2. (tipp)
+- ~~mindkettő~~
+- egyik se
+
+---
+
 Az alábbi nyelvek közül melyik NEM NP-beli?  
 
-- ELÉR
+- ELÉR (tipp)
 - ~~2SAT~~
 - L<sub>ECF</sub>
-- TSP
+- ~~TSP~~
+
+---
+
+Az alábbi nyelvek közül melyik NEM NP-beli?  
+
+- GRÁFIZOMORFIZMUS (tipp)
+- ~~L<sub>h</sub>~~
+- ~~TSP~~
+- ~~2SAT~~
 
 ---
 
@@ -500,7 +533,18 @@ Melyik állítás igaz?
 Melyik állítás igaz?  
 
 - ~~csak az 1.~~
-- csak a 2.
+- ~~csak a 2.~~
+- mindkettő (tipp)
+- egyik se
+
+---
+
+1\. Ha 2SZÍNEZÉS P-beli, akkor P=NP.  
+2\. Ha LEFOGÓ PONTTHALMAZ P-beli, akkor P=NP.  
+Melyik állítás igaz?  
+
+- csak az 1.
+- **csak a 2.**
 - mindkettő
 - egyik se
 
@@ -517,6 +561,7 @@ Melyik igaz?
 
 ---
 
+(2)
 1\. Ha P=NP hamis, akkor  nem fogunk sohase polinomiális idejű, 3SAT-ot eldöntő algoritmust találni.  
 2\. Ha P=NP hamis, akkor  nem fogunk tudni sohase LPMP-t eldöntő Turing gépet konstruálni.  
 Melyik állítás igaz?  
@@ -539,20 +584,42 @@ Melyik állítás igaz?
 
 ---
 
+1\. Ha P=NP hamis, akkor van olyan NP\P-beli probléma, mai nem NP-teljes.  
+2\. Ha P=NP, akkor PRÍMFAKTORIZÁCIÓ nem NP-köztes.  
+Melyik állítás igaz?  
+
+- csak az 1.
+- csak a 2.
+- mindkettő (tipp)
+- ~~egyik se~~
+
+---
+
 (2)  
 Egészítse ki a mondatot úgy, hogy az állítás igaz legyen!  
 Ha ....., akkor P=NP.  
 
 - ~~létezik NP-teljes probléma NP-ben~~
-- ha TSP determinisztikus Turing géppel polinom időben eldönthető
+- ha TSP determinisztikus Turing géppel polinom időben eldönthető (tipp)
 - minden NP-teljes probléma eldönthető
 - ~~minden NP-beli probléma polinom időben visszavezethető egy NP-teljes problémára~~
 
 ---
 
+Egészítse ki a mondatot úgy, hogy az állítás igaz legyen!  
+Ha ....., akkor P=NP.  
+
+- **nem létezik NP-köztes probléma NP-ben**
+- ELÉR P-beli
+- ha minden NP-teljes probléma eldönthető
+- minden NP-beli probléma polinom időben visszavezethető egy NP-teljes problémára
+
+---
+
+(2)
 Legyenek L és L' nyelvek. Az L eldönthetőségének bizonyításához elég:  
 
-- L' nem eleme R-nek és L'≤L
+- **L' nem eleme R-nek és L'≤L**
 - L' nem eleme R-nek és L≤L'
 - ~~L' nem eleme RE-nek és L≤L'~~
 - L' nem eleme RE-nek és L≤<sub>p</sub>L'
@@ -583,9 +650,9 @@ Legyenek L és L' nyelvek. Az L NP-beli nyelv NP-teljességének bizonyításáh
 Melyik állítás igaz?
 
 - ~~csak az 1.~~
-- csak a 2.
+- ~~csak a 2.~~
 - mindkettő
-- egyik se
+- egyik se (tipp)
 
 ---
 
@@ -598,6 +665,18 @@ Melyik igaz?
 - **csak a 2.**
 - mindkettő
 - egyik se
+
+---
+
+Legyen G egy tetszőleges 20 csúcsú egyszerű gráf.  
+1\. ha G 5-színezhető, akkor G 4-színezhető is.
+2\. ha G-nek van 4 csúcsú független részhalmaza, akkor van 5 csúcsú is.
+Melyik igaz?  
+
+- ~~csak az 1.~~
+- csak a 2.
+- mindkettő
+- egyik se (tipp)
 
 ---
 
@@ -618,8 +697,19 @@ Legyen K<sub>33</sub> az a teljes (irányítatlan)  páros gráf, ahol mindkét 
 2\. állítás: K<sub>33</sub>-ban van Hamilton kör.  
 Melyik állítás igaz?  
 
-- csak az 1.
-- csak a 2.
+- csak az 1. (tipp)
+- ~~csak a 2.~~
+- mindkettő
+- ~~egyik se~~
+
+---
+
+1\. Ha  <G,11>∈TSP, akkor G-ben van Hamilton-kör.  
+2\. Ha egy összefüggő irányítatlan G gráfban van 1-fokú csúcs, akkor G-ben nincs Hamilton kör
+Melyik állítás igaz?  
+
+- csak az 1. (tipp)
+- ~~csak a 2.~~
 - mindkettő
 - ~~egyik se~~
 
@@ -659,6 +749,17 @@ Melyik állítás igaz?
 
 ---
 
+1\. A coNP időbonyolultsági osztály az NP időbonyolultsági osztály komplementere.  
+2\. P ⊆ coNP  
+Melyik állítás igaz?  
+
+- csak az 1.
+- **csak a 2.**
+- mindkettő
+- egyik se
+
+---
+
 Az alábbi formulák közül melyik 2KNF?  
 1\.  (¬x ∨ y) ∧ (¬x ∨ ¬z ) ∧ (¬y ∨ z )  
 2\. (¬x ∧ y) ∨ (¬x ∧ ¬z )  
@@ -671,6 +772,19 @@ Az alábbi formulák közül melyik 2KNF?
 
 ---
 
+Az alábbi formulák közül melyik 3KNF?  
+1\. ((¬x ∨ y ∨ ¬z) ∧ (¬x ∨ ¬z ∨ ¬w)) ∨ (y ∧ z ∧ w)  
+2\. (¬x ∧ y) ∨ (¬z ∧ ¬y )  
+(x,y,z ítéletváltozók) 
+
+- csak az 1.
+- csak a 2.
+- mindkettő
+- **egyik se**
+
+---
+
+(2)
 1. Nincs olyan nemdeterminisztikus offline Turing gép által O(n<sup>3</sup>)
 tárral eldönthető nyelv, ami ne lenne eldönthető determinisztikus offline Turing gép által polinom tárral.  
 2. Nincs olyan NP-beli nyelv, ami ne lenne eldönthető determinisztikus offline Turing gép által polinom
@@ -679,7 +793,7 @@ Melyik állítás igaz?
 
 - csak az 1.
 - csak a 2.
-- mindkettő
+- **mindkettő**
 - ~~egyik se~~
 
 ---
@@ -700,7 +814,7 @@ Melyik állítás igaz?
 Melyik állításról tudjuk, hogy igaz?
 
 - csak az 1.
-- csak a 2. (tipp)
+- **csak a 2.**
 - mindkettő
 - ~~egyik se~~
 

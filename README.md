@@ -16,6 +16,30 @@ Melyik igaz?
 
 ---
 
+f(n)=9n<sup>4</sup>+5n g(n)=2<sup>n-2</sup>  
+1\. állítás: f(n)=O(g(n))  
+2\. állítás: g(n)=O(f(n))  
+Melyik igaz?  
+
+- csak az 1. (tipp)
+- ~~csak a 2.~~
+- mindkettő
+- egyik se
+
+---
+
+f(n)=log<sub>2</sub>(n/2), g(n)=3log<sub>2</sub>(2n)  
+1\. állítás: f(n)=O(g(n))  
+2\. állítás: g(n)=O(f(n))  
+Melyik igaz?  
+
+- ~~csak az 1.~~
+- csak a 2.
+- mindkettő (tipp)
+- egyik se
+
+---
+
 f(n)=3log<sub>8</sub>n, g(n)=5log<sub>2</sub>n.  
 1\. állítás: f(n)=Ω(g(n))  
 2\. állítás: g(n)=Ω(f(n))  
@@ -73,6 +97,28 @@ Legyen M = (Q, Σ, Γ, δ, q0 , q<sub>i</sub> , q<sub>n</sub>) egy tetszőleges 
 
 ---
 
+Legyen M = (Q, Σ, Γ, δ, q0 , q<sub>i</sub> , q<sub>n</sub>) egy tetszőleges egyszalagos Turing-gép. Ha δ(q,a)=(r,c,R), akkor mi lesz az ubqav konfiguráció rákövetkezője?  
+(q,r∈Q, u,v ∈Γ*, v≠ε, a,b,c∈Γ)  
+
+- ubrcv
+- urcbv
+- **ubcrv**
+- ucbrv
+
+---
+
+Legyen M = (Q, Σ, Γ, δ, q0 , q<sub>i</sub> , q<sub>n</sub>) egy NEMDETERMINISZTIKUS Turing gép és u∈Σ*.  
+1\. állítás: ha létezik többlépéses konfigurációátmenet az u-hoz tartozó kezdőkonfigurációból egy elfpgadó konfigurációba, akkor u eleme L(M)-nek.  
+2\. állítás: ha létezik többlépéses konfigurációátmenet az u-hoz tartozó kezdőkonfigurációból egy elutasító konfigurációba, akkor u nem eleme L(M)-nek.  
+Melyik állítás igaz?  
+
+- csak az 1.
+- csak a 2.
+- mindkettő
+- egyik se
+
+---
+
 Melyik lehet egy M = ({q0,q1,q2}, {0,1}, {0,1,#,\_}, δ, q0 , qi , qn) egyszalagos Turing-gép kezdőkonfigurációja?  
 q0\_ vagy q001#01_? (_jelöli a blank karaktert)  
 
@@ -122,6 +168,29 @@ Legyen  M = (Q, Σ, Γ, δ, q0 , qi , qn) egy tetszőleges kétszalagos Turing-g
 
 ---
 
+Legyen M = (Q, Σ, Γ, δ, q0 , q<sub>i</sub> , q<sub>n</sub>) egy 2 szalagos Turing gép és jelölje _ a blank karaktert (_∈Γ\Σ).  
+1\. M ε bemenethez tartozó kezdőkonfigurációja (q<sub>0</sub>,ε,_,ε,_).  
+2\.(q<sub>0</sub>,ε,ε,ε,ε) az M egy elutasító konfigurációja.  
+Melyik állítás igaz?  
+
+- **csak az 1.**
+- csak az 2.
+- mindkettő
+- egyik se
+
+---
+
+1\. állítás: Egy 2-szalagos Turing gép állapothalmaza tetszőleges olyan halmaz lehet, ami tartalmaz egy kezdő, egy elfogadó és egy elutasító állapotot.  
+2\. állítás: Legyen M = (Q, Σ, Γ, δ, q0 , q<sub>i</sub> , q<sub>n</sub>) egy tetszőleges 2-szalagos determinisztikus Turing gép. Ekkor az átmenetfüggvényére δ:( Q \\{ q<sub>i</sub>,q<sub>n</sub>}) x Γ<sup>2</sup> -> Q<sup>2</sup> x Γ<sup>2</sup> {L, S, R}<sup>2</sup> teljesül.  
+Melyik állítás igaz?  
+
+- ~~csak az 1.~~
+- csak a 2.
+- mindkettő
+- egyik se
+
+---
+
 Legyen L⊆{0,1}* egy nyelv. Az M determinisztikus Turing gépről tudjuk, hogy ∀u∈L-re elfogadó konfigurációba jut.  
 1\. következtetés: Tehát M felismeri L-et  
 2\. következtetés: Tehát M eldönti L-et.  
@@ -129,20 +198,33 @@ Melyik következtetés helyes?
 
 - ~~csak az 1.~~
 - csak a 2.
-- mindkettő (tipp)
-- egyik se
+- ~~mindkettő~~
+- egyik se (tipp)
 
 ---
 
-Egy M determinisztikus Turing gép pontosan az {abna|n>0} nyelv szavaira jut qn-be.  
+Legyen L⊆{0,1}* egy nyelv. Az M determinisztikus Turing gépről tudjuk, hogy pontosan az L-beli szavakra jut elfogadó konfigurációba.  
+1\. Tehát M eldönti az L nyelvet.  
+2\. Tehát L∈R.  
+Melyik következtetés helyes?  
+
+- csak az 1.
+- csak a 2.
+- mindkettő
+- **egyik se**
+
+---
+
+(2)
+Egy M determinisztikus Turing gép pontosan az {ab<sup>n</sup>a|n>0} nyelv szavaira jut qn-be.  
 1\. L(M) az {ab<sup>n</sup>a|n>0} nyelv komplementere.  
 2\. M eldönti az {ab<sup>n</sup>a|n>0} nyelv komplementerét.  
 Melyik következtetés helyes?
 
-- csak az 1.
+- ~~csak az 1.~~
 - ~~csak a 2.~~
 - mindkettő
-- egyik se
+- egyik se (tipp)
 
 ---
 
@@ -152,13 +234,14 @@ Egy determinisztikus Turing gép pontosan az {a<sup>n</sup>b<sup>n</sup>|n>0} ny
 Melyik állítás igaz?  
 
 - csak az 1.
-- csak a 2.
+- **csak a 2.**
 - ~~mindkettő~~
-- egyik se (tipp)
+- egyik se
 
 ---
 
-(2)Ha L eldönthető egy  f(n)=3<sup>n</sup>+2n<sup>2</sup> időkorlátos determinisztikus Turing géppel, akkor  
+(2)  
+Ha L eldönthető egy  f(n)=3<sup>n</sup>+2n<sup>2</sup> időkorlátos determinisztikus Turing géppel, akkor  
 1\. Tehát L P-beli nyelv  
 2\. Tehát L nem P-beli nyelv  
 Melyik következtetés helyes?
@@ -166,7 +249,28 @@ Melyik következtetés helyes?
 - ~~csak az 1.~~
 - ~~csak a 2.~~
 - mindkettő
+- egyik se (tipp)
+
+---
+
+Ha L eldönthető egy f(n)=2n+3log<sub>2</sub>n időkorlátos determinisztikus Turing géppel, akkor  
+1\. L P-beli nyelv  
+2\. L NP-beli nyelv  
+Melyik következtetés helyes?  
+
+- csak az 1.
+- csak a 2.
+- **mindkettő**
 - egyik se
+
+---
+
+Melyik azaz állítás, amelyikről NEM tudjuk kijelenteni, hogy igaz?  
+
+- Minden determinisztikus Turing-géphez van vele ekvivalens nemdeterminisztikus Turing-gép.  
+- Minden nemdeterminisztikus Turing-géphez van vele ekvivalens determinisztikus Turing gép.  
+- Minden polinom időigényű 3 szalagos determinisztikus Turing-géphez van vele ekvivalens polinom időigényű 2 szalagos determinisztikus Turing-gép.
+- **Minden polinom időigényű nemdeterminisztikus Turinghez van vele ekvivalens polinom időigényű determiniszitkus Turing-gép.**
 
 ---
 
@@ -181,6 +285,17 @@ Melyik állítás igaz?
 
 ---
 
+1\. állítás: {0,1}* számossága contunuum.  
+2\. állítás: a {0,1} feletti nyelvek halmazának számossága continuum.  
+Melyik állítás igaz?  
+
+- csak az 1.
+- **csak a 2.**
+- mindkettő
+- egyik se
+
+---
+
 Legyen M egy nemdeterminisztikus Turing gép.  
 1\. Ha egy u szóhoz tartozó nemdeterminisztikus számı́tási fának van olyan levele, ami elfogadó konfiguráció, akkor M elfogadja u-t.  
 2\. Ha minden n-re minden L(M)-beli n hosszú u input szóra az u-hoz tartozó nemdeterminisztikus számı́tási fa véges és minden levele a gyökértől legfeljebb 2n2 távolságra van, akkor M f(n)=2n2 időkorlátos.  
@@ -188,6 +303,17 @@ Melyik állítás igaz?
 
 - _csak az 1._
 - ~~csak a 2.~~
+- mindkettő
+- egyik se
+
+---
+
+1\. Legyen M egy n<sup>2</sup> időkorlátos 2-szalagos determinisztikus Turing gép. Ekkor megadható egy M-mel ekvivalens O(n<sup>4</sup>) időkorlátos M' egyszalagos determinisztikus Turing gép.  
+2\. Legyen M egy n<sup>2</sup> időkorlátos egyszalagos nemdeterminisztikus Turing gép. Ekkor megadható egy M-mel ekvivalens O(n<sup>4</sup>) időkorlátos M' determinisztikus Turing gép.  
+Melyik állításról tudjuk, hogy igaz?  
+
+- **csak az 1.**
+- csak a 2.
 - mindkettő
 - egyik se
 
@@ -229,6 +355,17 @@ Ekkor
 
 - csak az 1.
 - **csak a 2.**
+- mindkettő
+- egyik se
+
+---
+
+1\. állítás: Van olyan eldönthetetlen nyelv, ami Turing-felismerhető.  
+2\. állítás R (valódi)⊆ NP.  
+Melyik állítás igaz?  
+
+- **csak az 1.**
+- csak a 2.
 - mindkettő
 - egyik se
 
@@ -595,10 +732,10 @@ Melyikről lehet tudni, hogy igaz?
 2\. PSPACE számossága continuum  
 Melyik állítás igaz?
 
-- csak az 1.
+- ~~csak az 1.~~
 - ~~csak a 2.~~
 - mindkettő
-- egyik se
+- **egyik se**
 
 ---
 
